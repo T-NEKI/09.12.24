@@ -47,6 +47,7 @@ double simpson_method(double a, double b, int n) {
 }
 
 int main() {
+    setlocale(LC_ALL, "Russian");
     // Границы интегрирования
     double a = 0.0, b = 1.0;
     // Количество разбиений
